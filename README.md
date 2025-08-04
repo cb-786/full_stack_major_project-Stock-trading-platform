@@ -37,14 +37,24 @@ Welcome to the Trading Dashboard project! This is a comprehensive full-stack app
 ## 📸 Screenshots
 
 Here are a few snapshots of the application:
-
-| Login/Signup Page | Main Dashboard View |
-|:-----------------:|:-------------------:|
-| ![Login Page](https://placehold.co/600x400/e2e8f0/4a5568?text=Login+Page+Screenshot) | ![Dashboard](https://placehold.co/600x400/e2e8f0/4a5568?text=Dashboard+Screenshot) |
-
-| Portfolio Chart | Holdings Analysis |
-|:---------------:|:-----------------:|
-| ![Chart.js Doughnut](https://placehold.co/600x400/e2e8f0/4a5568?text=Chart.js+Doughnut) | ![Chart.js Histogram](https://placehold.co/600x400/e2e8f0/4a5568?text=Chart.js+Histogram) |
+<table>
+  <tr>
+    <td align="center"><strong>Login/Signup Page</strong></td>
+    <td align="center"><strong>Support Page</strong></td>
+  </tr>
+  <tr>
+    <td><img src="./ss1_login.png" alt="Login Page Screenshot" width="100%"></td>
+    <td><img src="./ss2_support.png" alt="Dashboard Screenshot" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><strong>Portfolio Chart</strong></td>
+    <td align="center"><strong>Holdings Analysis</strong></td>
+  </tr>
+  <tr>
+    <td><img src="./ss3_flowcharts.png" alt="Portfolio Chart Screenshot" width="100%"></td>
+    <td><img src="./ss4_holdings.png" alt="Holdings Analysis Screenshot" width="100%"></td>
+  </tr>
+</table>
 
 ## ⚙️ How to Run Locally
 
