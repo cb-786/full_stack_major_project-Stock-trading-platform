@@ -1,0 +1,60 @@
+/* ---- Main Container for Orders ---- */
+.orders-container {
+  padding: 20px;
+  background-color: #1a1a1a; /* Dark background similar to screenshot */
+  color: #e0e0e0;
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+/* ---- Grid Layout for Header and Rows ---- */
+.table-header,
+.table-row {
+  display: grid;
+  /* Creates 5 columns. First column is wider for the name. */
+  grid-template-columns: 2fr 1fr 1fr 1fr 1.5fr;
+  gap: 16px; /* Space between columns */
+  padding: 12px 10px;
+  align-items: center;
+  border-bottom: 1px solid #333; /* Separator line */
+}
+
+/* ---- Styling for the Header ---- */
+.table-header {
+  color: #888;
+  font-weight: bold;
+  font-size: 0.9em;
+  border-bottom: 2px solid #555;
+}
+
+/* Right-align numeric data in the table */
+.table-header span:not(:first-child),
+.table-row span:not(:first-child) {
+  text-align: right;
+}
+
+/* Left-align the instrument name */
+.table-header span:first-child,
+.table-row span:first-child {
+  text-align: left;
+}
+
+/* ---- Summary Section at the Bottom ---- */
+.summary-footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid #555;
+  text-align: right;
+}
+
+.summary-footer h3 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.summary-footer p {
+  margin: 4px 0 0;
+  color: #888;
+}
