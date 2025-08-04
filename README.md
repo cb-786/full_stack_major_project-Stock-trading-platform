@@ -1,0 +1,1 @@
+# full_stack_major_project-Stock-trading-platform
